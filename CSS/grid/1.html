@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body{
+        padding: 20px;
+    }
+
+    .container{
+        display: grid;
+        /* GRID-TEMPLATE-COLUMS/ROWA */
+
+        /* grid-template-columns: 100px 200px 100px 100px; */
+        /* grid-template-columns: 50% 50%; */
+        /* grid-template-columns: 25% 25% 25% 25%; */
+        /* grid-template-columns: 1fr 1fr 1fr; */
+        /* grid-template-columns: repeat(3, 1fr); */
+
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+    }
+
+    .card{
+        border: solid;
+
+    }
+
+    #c1{
+        grid-column: span 2;
+    }
+
+    #c3{
+        grid-row: span 2;
+    }
+
+    #c5{
+        grid-column: span 2;        
+    }
+
+</style>
+<body>
+    <div class="container">
+        <div class="card" id="c1">Card 1</div>
+        <div class="card" id="c2">Card 2</div>
+        <div class="card" id="c3">Card 3</div>
+        <div class="card" id="c4">Card 4</div>
+        <div class="card" id="c5">Card 5</div>
+        <!-- <div class="card" id="c5">Card 6</div> -->
+
+    </div>
+</body>
+</html>

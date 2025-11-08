@@ -1,0 +1,6 @@
+types of units 
+
+1. rem 
+2. em
+3. px
+4. %

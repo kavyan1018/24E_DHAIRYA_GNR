@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body::after{
+
+        content: "";
+        background: url("/CSS/Mountain.jpg") no-repeat;
+        background-size: 100vw 100vh;
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        opacity: 0.7;
+    }
+
+    h1{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 2.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    p{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 1.3rem;
+        line-height: 1.5em;
+    }
+
+    a{
+        color: yellow;
+        position: relative;
+    }
+
+    a:hover::after{
+
+        content: attr(data-message);
+        text-decoration: none;
+        background-color: blanchedalmond;
+        color: black;
+        position: absolute;
+        bottom: 100%;
+        left: 60%;
+        border-radius: 10px;
+        white-space: nowrap;
+        padding: 0px 10px;
+
+    }
+
+</style>
+<body>
+    <h1>Lorem ipsum dolor sit amet consectetur adipisicing.</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam nobis sunt impedit libero! Esse, aliquam. Repellat quisquam tempora possimus <a href="https://facebook.com/mypage" data-message="Like my facebook page">culpa nisi</a> accusantium, blanditiis alias porro eius nemo soluta adipisci libero voluptatum voluptatem laudantium, pariatur eveniet quam, molestiae tenetur a ad! Debitis ad quo tempore atque eveniet sunt aperiam iusto deleniti dolores quam consectetur exercitationem neque ullam architecto velit tempora praesentium a molestiae, maiores aspernatur ut, dolorum nesciunt, laborum eum? In quibusdam, quam ipsum quia iure quis. <a id="youtube" data-message="Subscribe my youtube channel" href="https://linkedin.com/mypage">Obcaecati consequatur</a> eius quaerat, sunt perspiciatis atque iusto magni veritatis, fuga similique cum illo ab neque, aliquam quis eligendi esse eos placeat. Earum, expedita facere. Possimus aliquam sit in, ea ut sequi omnis praesentium iusto harum, vero, quia fugit animi tempora vitae totam consequuntur eaque culpa! Iste libero soluta obcaecati, corrupti perspiciatis natus esse magnam vitae omnis voluptatem neque praesentium magni molestias ab atque consectetur unde suscipit impedit quia quaerat consequuntur. Sapiente dicta soluta, quasi enim numquam, eligendi ipsa doloremque eius minima autem eaque eum eveniet? Consequuntur officiis voluptatibus, tempore incidunt, voluptate porro atque tempora aut consectetur sint molestias commodi nemo mollitia, earum magni <a href="#" data-message="Connect with me on linkedin">blanditiis vel</a> neque beatae cum provident dignissimos deleniti optio! Nemo, est ducimus fugit voluptatum voluptate culpa dolor quod magnam perferendis expedita fuga rem praesentium veniam vero atque architecto iste quis, adipisci dolorem, amet sapiente vitae maiores. Reprehenderit excepturi cupiditate neque quaerat inventore impedit at porro odit. Ullam laudantium eos dolorum id deserunt recusandae exercitationem possimus illo praesentium accusantium eum inventore soluta error culpa, ab repellendus! A corporis et nisi at voluptates placeat nostrum, laudantium id, nemo cumque odio dolore. Doloribus iste cupiditate minima assumenda? Sint pariatur eum unde tempora quos expedita modi aperiam error perferendis corrupti illo veritatis vitae alias ullam delectus non iure sunt eius adipisci esse a voluptas minima, <a data-message="Follow me on twitter" href="#">consectetur minus?</a> Consequuntur, dignissimos aperiam ipsum laboriosam enim impedit commodi natus expedita quos tempore deleniti, cumque nesciunt placeat eaque facilis magnam blanditiis vitae repellendus a? Quis, nihil sint! Illo nihil sequi dolore nobis possimus dolores quod eos <a href="#" data-message="Like us on instagram">animi fuga!</a></p>
+
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+    }
+
+    .card{
+        border: solid;
+        border-radius: 10px;
+    }
+
+    #card_1 {
+        grid-column: span 2;
+        height: 300px;
+        background-color: purple;
+        padding: 1rem;
+    }
+
+    #card_2{
+        background-color: gray;
+    }
+
+    #card_3{
+        background-color: wheat;
+        grid-row: span 2;
+    }
+
+    #card_4{
+        background-color: lightblue;
+    }
+
+    #card_5{
+        grid-column: span 2;
+        height: 300px;
+        background-color: violet;
+    }
+
+</style>
+
+<body>
+
+    <div class="card" id="card_1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti reprehenderit, minus, suscipit tempore nesciunt vel natus perferendis dolores quisquam corrupti, ad inventore. Obcaecati eveniet et nemo velit ex incidunt deleniti repellendus dolore corrupti? Id nam illum tempora unde, deserunt eos ullam dolorum expedita nulla perferendis deleniti, odio repudiandae! Sit suscipit laudantium consequatur eos amet exercitationem quisquam vero, debitis, incidunt rerum, deserunt praesentium nemo ut error? Nihil ab quo dolor magni ducimus! Sed quo ut odit maiores vel et eaque facere aspernatur minima non nostrum deserunt dolore dolor ex, amet ducimus! Dolor eaque officiis qui magni earum provident repellat amet quaerat dolorum nam ea facilis alias quia soluta sint explicabo, impedit, esse error reiciendis voluptatem atque. Omnis quo minima qui dicta est dolore distinctio explicabo vitae pariatur ab iusto architecto ipsam odit voluptatem reiciendis officia laboriosam non voluptatum, iste magni earum. Totam adipisci alias at aperiam! Repellendus reiciendis corporis illum animi.</div>
+    <div class="card" id="card_2">Card_2</div>
+    <div class="card" id="card_3">Card_3</div>
+    <div class="card" id="card_4">Card_4</div>
+    <div class="card" id="card_5">Card_5</div>
+
+
+</body>
+
+</html>

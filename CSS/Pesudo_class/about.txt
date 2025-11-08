@@ -1,0 +1,17 @@
+types of Pesudo class:
+1. Hover
+2. Active
+3. link
+4. visited
+
+
+1. Hover: It is used to change the style of an element when you mouse over it.
+
+2. Active: It is used to change the style of an element when you click on it.
+
+3. link: It is used to change the style of an element when your mouse click hover on it.
+
+4. visited: It is used to change the style of an element when you visited on it.
+
+
+

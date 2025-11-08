@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+    /* box - shadow and text-shadow */
+
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .box{
+
+        border: solid;
+        width: 150px;
+        height: 200px;
+        margin: 8rem auto;
+
+
+        /* Box - shadow */
+        /* box-shadow: x-offset y-offset; */
+
+        /* box-shadow: 10px 10px;   right - bottom */
+        /* box-shadow: -10px -10px;  left - top */
+        /* box-shadow: -10px 10px;  left - bottom */
+        /* box-shadow: 10px -10px;  right - top */
+
+
+        /* box-shadow: x-offset y-offset blure-radius; */
+        /* box-shadow: 10px 10px 5px; */
+        /* box-shadow: 10px 10px 15px; */
+        /* box-shadow: 10px 10px 25px; */
+        /* box-shadow: 10px 10px 100px; */
+        /* box-shadow: 10px 50px 100px; */
+        /* box-shadow: 0px 0px 20px; */
+
+
+        /* box-shadow: x-offset y-offset blure-radius spread-radius; */
+        /* box-shadow: 0px 0px 0px 15px; */
+        /* box-shadow: 0px 0px 30px 10px; */
+
+        /* box-shadow: x-offset y-offset blure-radius spread-radius color; */
+
+        box-shadow: 0px 0px 30px 5px red;
+        /* box-shadow: 0px 0px 30px 5px rgba(0, 0, 0, 0.259); */
+
+        font-family: cursive;
+        text-align: center;
+        font-size: 2rem;
+        padding-top: 70px;
+        font-weight: 600;
+        font-style: italic;
+
+        /* Text - shadow */
+
+        /* text-shadow: x-offset y-offset blure-radius color; */
+
+        /* text-shadow: 2px 2px red; */
+        /* text-shadow: 2px 2px lightsteelblue; */
+        /* text-shadow: 0px 0px 20px green; */
+        text-shadow: 5px 5px 30px red , -5px -5px 30px blue;
+
+        /* note : text-shadow does note take spread-radius; */
+
+    }
+
+    
+</style>
+<body>
+    
+    <div class="box">
+        Box - 1
+    </div>
+
+</body>
+</html>

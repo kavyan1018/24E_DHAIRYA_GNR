@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+
+    .container{
+        border: solid;
+        max-width: max-content;
+        border-color: aqua;
+        border-radius: 10px;
+        margin: auto;
+    }
+
+
+    .semi-container{
+        display: flex;
+        /* border: solid; */
+        max-width: max-content;
+        text-align: center;
+        border-radius: 10px;
+        border-color: aqua;
+    }
+
+    .st{
+        height: 40px;
+        width: 40px;
+        border: solid;
+        margin: 10px;
+        font-size: 1.2rem;
+        font-weight: bold;
+        font-family: cursive;
+        background-color: grey;
+        border-radius: 5px;
+    }
+
+</style>
+<body>
+    
+    <div class="container">
+        <div class="semi-container">
+            <div class="st" id="A">A</div>
+            <div class="st" id="B">B</div>
+            <div class="st" id="C">C</div>
+        </div>
+
+        <div class="semi-container">
+            <div class="st" id="A">D</div>
+            <div class="st" id="B">E</div>
+            <div class="st" id="C">F</div>
+        </div>
+
+        <div class="semi-container">
+            <div class="st" id="A">G</div>
+            <div class="st" id="B">H</div>
+            <div class="st" id="C">I</div>
+        </div>
+    </div>
+
+</body>
+</html>
