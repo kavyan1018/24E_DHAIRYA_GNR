@@ -1,0 +1,45 @@
+Introduction of C
+
+Documentation Section
+
+/*
+
+            Multiline Comment 
+
+*/
+
+//     Single Line Comment
+
+What is Comment ?
+
+--> Whar ever we Write in comment  Section will be not a part of our entire code while Execuiting a code
+
+
+
+Linking Section 
+
+Call as a Header Files
+
+                            C is Divide in two Pars 
+                                    |
+                        --------------------------------
+                        |                              |
+                    1. Function                    2. Modules
+
+
+who we call Header Files ?
+
+--> #include<File_name>
+
+#include<stdio.h>
+#include<conio.h>
+
+
+
+#include<stdio.h>
+
+--> printf and scanf are included by <stdio.h> header file
+
+#include<conio.h>
+
+--> clrscr and getch are included by <conio.h> header file
