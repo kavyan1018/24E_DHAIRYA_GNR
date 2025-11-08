@@ -1,0 +1,226 @@
+python installation.....
+
+turob c
+
+vs code -->
+
+
+python :--
+
+please hello world lakho ???
+c langauge ->
+python
+c++
+java
+js
+css
+html
+
+protocols --> main () point start -->
+
+scripting langugae -->
+1st line
+last end ..
+
+python is a scripting language...
+
+---------------------------------
+
+staticlly typed ? / prog/scripti
+	-->
+
+int a =10;
+a =10 //error statically typed
+	
+dynamically typed ? prog / scripti
+	-->
+a =10 //
+
+c//
+int a;
+12.22
+
+12
+float f =12;
+12.0
+
+int  -->float -->
+brodcasting -->
+
+float -->int -->
+narrowing -->
+
+--------------------------
+operators --> def: operators are the symbols which are used to perform the
+ operations on the operands.
+type:
+1) arithmetic operators + , -, *, /, %, //, **
+2) logical operators and, or, not
+3) bitwise operators &, |, ^, ~, <<, >>
+4) relational operators <, >, <=, >=, ==, !=
+5) assignment operators =, +=, -=, *=, /=, %=, //=, **=
+6) unary operators +, -, ~
+7) membership operators in, not in
+8) identity operators is, is not
+
+
+*decsion making statements
+1) if else
+2) loops
+
+if condition:
+	if statements
+	.
+	.
+	.
+	.
+	.
+	.
+	.
+///erro......	
+else:
+	else statements
+	.
+	.
+	.
+
+indentation --> tab space
+
+cond1 and cond2
+
+t    t    t
+f    -    f
+t    f	  f
+
+cond1 or cond2
+
+t    -	t
+f    t  t
+f   f   f
+
+led
+
+1st --> false
+2nd --> ....
+3 rd..
+
+true
+	check......
+
+
+ntery control loops :
+for and while....
+
+	for :- start loop,, ending loop --->
+		1 to 100 --> for...
+	while :-specfic condition.... while..
+		100 --> 10 10 10
+
+		for(i=1;i<=10;i++){
+			
+		}
+
+ 
+no exit control loop 
+exit control loop :
+do while..
+
+python 4 type ds :
+[] --> list data type
+
+list : list is a collection of hetrogenous data elements
+1) list is a mutable ds
+2) list is a ordered ds
+3) list is a indexed ds
+4) list is a dynamic ds we dont need to specify the size of the list
+5) list allows duplicate elements
+6) list allows slicing and dicing
+		
+
+
+
+
+tuple
+set
+dict
+
+index -->
+dictonory:
+
+userName:"aadhr no"
+roll no :"sno"
+"enrono":"detail"
+[] --> list
+() --> tuple
+{} --> dictonory
+
+1)dictonory store the data in the form of key value pair
+2)dictonory is a mutable ds
+3)dictonory is a unordered ds
+4)dictonory is a dynamic ds
+5)dictonory allows duplicate values but not duplicate keys
+6)dictonory allows slicing and
+7)dictonory allows hetrogenous data elements
+
+#set :
+1) set is a collection of unique elements
+2) set is a mutable ds
+3)set is unordered ds
+4)set is a dynamic ds
+5)set allows hetrogenous data elements
+6)set allows slicing 
+
+functions:
+
+function:function is a block of code which is used to perform a specific task
+advantages:
+
+-----------------------------------------------
+drawline function:
+print("----------------------------------------------") 100 times
+
+1)code reusablity
+2)code optimization
+
+	input ---> name --> "no space allow..." 5 line... isSapce(name) --> 
+3)code maintainability
+	:--> isSpace()
+4)code readability
+	:50 line code... --> 5 function
+
+Type of functions:
+pre defined functions
+	: input.......
+user defined functions
+	:
+
+4 types of user / pre defined functions:	
+1) function with no arg and no return type
+2) function with arg and no return type
+3) function with no arg and return type
+4) function with arg and return type
+
+--------------------------------------------
+
+int test()
+{
+
+}
+void test()
+
+//def keyword is used to define the function
+
+def functionName(param....):
+	statements
+
+
+
+
+
+
+
+
+
+
+
+

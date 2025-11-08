@@ -1,0 +1,223 @@
+methodology :
+
+POPS : procedure oriented programming structure
+OOPS : object oriented programming structure
+
+diff between POPs and OOPs :
+
+1) POPs : in POPs we can write the program in the form of functions
+    eg: c, pascal, fortran, cobol, basic, etc
+2) OOPs : in OOPs we can write the program in the form of classes and objects
+    eg: c++, java, c#, python, etc
+
+
+4 piller concept of OOPs :
+1) Encapsulation : binding the data and methods into a single unit is called as encapsulation
+    1)classes
+    2)objects
+    3)methods
+    4)variables
+    5)constructors
+
+2) Abstraction : hiding the internal implementation and showing the functionality to the user is called as abstraction
+    
+3) Inheritance : acquiring the properties from one class to another class is called as inheritance
+               :child / derived class can access the properties of parent / base class
+    
+
+
+4) Polymorphism : poly means many and morphism means forms
+                : same name but different forms
+                : method overloading
+                : method overriding
+
+
+
+encapsulation :
+class : class is a collection data members and member functions
+        :class is a blue print of an object
+        :class is a logical entity
+        :class is a user defined data type
+        :class is a template
+        :class is a reference data type
+
+object: object is a physical entity
+        :object is a instance of a class
+        :object is a run time entity
+        :object is a real world entity
+        :object is a variable of a class type
+        :object is a reference variable
+
+
+
+1)completness ans sufficiency
+ --> student :- name, rollno, marks, grade, address, phone, email, etc
+
+otp --->
+customer -->
+
+ bank {
+    //open account
+    //withdraw
+    //deposit
+    //balance enquiry
+ }
+
+ high cohesion and low coupling
+ 
+ high cohasion:
+ 
+ low cohesion and tight coupling
+coupling: tight coupling and loose coupling
+
+
+class BlueDart{
+    supply(){
+        //code
+    }
+}
+
+
+class Flipkart : blueDart{
+
+
+
+}
+
+loose coupling and high cohesion
+------------------------------------
+is a relationship
+has a relationship
+
+class          object
+Fruit          apple,mango,banana,grapes,etc
+Vehicle        car,bike,bus,train,etc
+
+School          student,teacher,principal,etc
+
+
+
+we have class keyword to create a class
+class name must start with capital letter StudentDetail
+
+
+gloabal var: var which is declared outside the class is called as global var
+local var: var which is declared inside the class and inside the method is called as local var
+instance var: var which is declared inside the method or constructor using self is called as instance var
+class / static var: var which is declared inside the class and outside the method is called as class var
+
+
+constructors:
+1)constructor is special method, which is used to initialize the instance var
+2)constructor will define using __init__(self)
+3)constructor will execute automatically when we create an object
+4)constructor will execute only once per object
+5)constructor does not return any value
+6)constuctor may have parameters or may not have parameters
+
+type of constructor in python:
+1)default constructor
+2)parameterized constructor
+
+one class must have one constructor...
+if programmer not define any constructor then python will provide default constructor
+
+use of constructor:
+1)to initialize the instance var
+
+
+
+Inheritance:
+child /derived class can access the properties of parent /base  class is called as inheritance
+
+advantages of inheritance:
+reusability of code
+
+
+type of inheritance:
+1)single inheritance  1 parent and 1 child
+
+2)multiple inheritance
+
+    1)1 parent and n child
+    2)n parent and 1 child
+
+
+#)multilevel inheritance
+    1 -. 2 -. 3
+4)hybrid inheritance
+    1)multiple + multilevel
+5)hierarchical inheritance
+                             queen elizabeth
+
+        prince charles           prince andrew           princess anne                       
+
+    prince william  prince harry  princess beatrice  princess eugenie  prince edward  prince andrew
+
+
+
+polymorphism: poly means many and morphism means forms
+            : same name but different forms
+            : method overloading / compile time polymorphism
+            : method overriding / run time polymorphism
+
+
+method overloading:
+same name of method create in same class with different parameters is called as method overloading
+
+serach(pname)
+search(pname,variant)
+search(pname,color)
+search(pname,color,price)
+
+
+search(fname)
+search(resname,fname)
+search(fname,location)
+search(fname,location,price)
+
+
+
+overriding....
+same name of method create in child class with same signture which is present 
+in parent class is called as method overriding
+
+signture : return type,name,paramaters,access specifier
+
+JB VADAPAVA AHEMEDABAD :
+
+      def vadpav():
+        logic
+
+    CG ROAD JB VADAPAV -->
+    
+            def vadpav():
+                enhanced logic
+
+
+BANKING SYSTEM :
+
+HDFC BANK AC : DEBIT CARD
+SBI BANK ATM MACHINE : --> YES
+
+class RBI
+
+     withdraw()
+
+class HDFC(RBI){
+
+    withdraw()
+
+}
+
+class SBI{
+
+    withdraw()
+
+}
+
+
+
+
+
+
