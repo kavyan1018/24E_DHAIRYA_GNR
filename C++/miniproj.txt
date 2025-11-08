@@ -1,0 +1,7 @@
+student who was not added , should not get printed...
+print students in assending order by name
+print students in assending order by marks
+print student who got first rank
+print stundet who is fail
+print student data who is having highest mark between of first 10 roll no
+print student data who is having highest mark between of first n roll no
