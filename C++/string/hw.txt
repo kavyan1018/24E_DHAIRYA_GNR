@@ -1,4 +1,0 @@
-wap to find bomb key from para
-wap to print count of char enterd by user i 
-find no of words from para
-remove duplicate word from para

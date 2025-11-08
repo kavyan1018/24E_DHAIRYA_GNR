@@ -1,3 +1,0 @@
-class name startrs with cap and follwed by camel case StudentDetail
-function name start with small and follwed by camel case getStudentData()
-varibale name start with small and follwed by camel case sName StudentName, s_name,
