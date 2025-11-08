@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body{
+        padding: 20px;
+    }
+
+    /* 
+        use of grid-template-columns
+        -> it defines the number of columns and their widths in a grid layout.
+
+        what is fr ? 
+        -> fr is a flexible unit that represents a fraction of the available space in the grid container.
+    */
+    .container{
+        display: grid;
+        /* grid-template-columns: 100px 200px 100px 100px; */
+        /* grid-template-columns: 25% 25% 25% 25%; */
+        /* grid-template-columns: 1fr 2fr 1fr; */
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+    }
+
+    .card{
+        border: solid 1px black;
+        border-radius: 10px;
+    }
+
+    #c1{
+        grid-column: span 2;
+        height: 300px;
+        padding: 5px;
+        background-color: blueviolet;
+    }
+
+    #c3{
+        grid-row: span 2;
+    }
+
+    #c5{
+        grid-column: span 2;
+        height: 300px;
+    }
+
+</style>
+<body>
+    
+    <div class="container">
+        <div class="card" id="c1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse fugiat placeat sapiente. Ipsa velit dolores eos cumque quasi sit quaerat aspernatur et, at doloribus quisquam neque. Mollitia ducimus maiores possimus nobis eaque numquam voluptate, maxime provident animi. Praesentium repudiandae qui accusantium, voluptate minus sed blanditiis expedita asperiores culpa et fuga corrupti ipsa cumque? Pariatur neque iste culpa rerum repellat quisquam, deserunt nisi repudiandae magni assumenda libero, ut incidunt dolores inventore quas deleniti atque tenetur explicabo, consequatur dicta rem omnis quaerat voluptates laudantium. Error illum similique doloribus possimus repellat modi harum facere, ipsam illo cum assumenda et nihil esse inventore debitis nobis soluta maiores voluptatibus saepe. Adipisci necessitatibus facere blanditiis suscipit, dolor quae totam error id vitae repudiandae non aspernatur, inventore et ducimus accusantium, delectus debitis ea aliquid labore? Reiciendis nam earum fugit rerum. Culpa cumque necessitatibus cupiditate laboriosam nam quod, tempora laborum aspernatur ullam assumenda aliquam vero corrupti! Perspiciatis veritatis aperiam harum aliquam inventore quaerat expedita minima vero nostrum reprehenderit eum necessitatibus debitis aspernatur, quasi exercitationem natus asperiores facilis voluptatem, voluptates eaque autem? Consectetur, suscipit iusto id exercitationem fuga ducimus voluptatem et commodi aut nostrum numquam enim velit? Dolor vitae repudiandae sequi repellat nulla nemo vel accusamus ipsa sint accusantium!</div>
+        <div class="card" id="c2">Card 2</div>
+        <div class="card" id="c3">Card 3</div>
+        <div class="card" id="c4">Card 4</div>
+        <div class="card" id="c5">Card 5</div>
+    </div>
+
+</body>
+</html>
