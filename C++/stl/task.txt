@@ -1,0 +1,42 @@
+take input from user.. size
+
+5 --> 5 elemt
+
+list empty == ->
+
+//validation list empty -->
+
+list is empty
+-->remove --> 5 a
+
+
+
+//stack -->
+
+store elements accending order in stack
+-->remove duplicate elements from stack...
+
+
+vector :--
+
+create vector for employee names..
+
+CRUD -->
+
+insert employee name
+get employee names
+delete employee name
+update employee name
+search employee name  and return position
+
+
+
+
+
+
+
+
+
+
+
+

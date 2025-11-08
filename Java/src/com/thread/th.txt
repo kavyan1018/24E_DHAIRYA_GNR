@@ -1,0 +1,28 @@
+MULTITTHREADING....
+
+--->2 type of programming....
+1)processd based prog ...
+	-->1 process finsih --> 2 process start 
+	
+	-->resource utilisation ....
+	
+2)Thread based prog...
+
+
+
+
+
+---> schedular --->  CPU --> programme --> schedular --> priority
+
+process based... -> main -> function --->Thread Schedular --->
+
+2 ways to crete threa
+1) Thread class
+2) implmenting Runnable interface...
+
+					Runnable -->
+						public void run();
+						
+					Thread class implments Runnable interface...
+					run()
+

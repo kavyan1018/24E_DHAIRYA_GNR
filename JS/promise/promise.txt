@@ -1,0 +1,23 @@
+PROMISE:
+sync programming
+ans async programming | non syncronous programming
+
+------------------------------------------ line 1
+****************************************** line 2
+
+
+------------------------------------------- line 3 3second...
+******************************************* line 4
+
+line ex 3
+.....
+
+
+promise in javascript is class...
+promise have 3 state
+pending
+resolve
+reject
+
+
+async await:

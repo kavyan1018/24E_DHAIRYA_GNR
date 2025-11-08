@@ -1,0 +1,39 @@
+regex --> regular expression...
+
+Pattern class
+Matcher class
+MatchResult interface
+
+regex character classes
+[abc] -> only single char a b c
+[^abc] -> except abc any char...
+[a-zA-Z] --> all alphabets
+[a-f[s-z]]
+[a-z&&[^bc]]
+[a-z&&[^d-g]]
+
+regex quantifiers it specify no of occuerrence of pattern...
+
+? [abc]? -> once and not at all [a-z]
++ [abc]+ -->once and more... [a-zA-Z]+ --> any alpha
+* [abc]* --> zero and more...
+{10} [abc]{10} --> only 10 times
+{5,} [abc]{5,} --> min 5 or no limit...[a-z0-9_#]
+{5,8} [abc]{5,8} min 5 and max 8
+
+//regex metachar
+
+\d -> [0-9]
+\D -> [^0-9]
+\s -> [\t\n\r] 
+\S -> [] -x0b any whitespace char not allow....
+\w ->[A-Za-z_0-9]
+\W ->
+
+
+
+[].com
+
+
+
+

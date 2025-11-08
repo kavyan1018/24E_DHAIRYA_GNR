@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- 
+
+    tr -> table row
+    td -> table data
+    th -> table header
+    thead -> table head
+
+
+    if u want to combine the 2 rows then use rowspan attribute
+    if u want to combine the 2 columns then use colspan attribute
+
+    -->
+
+
+    <h1>Student Details</h1>
+
+
+    <table border="4" bgcolor="lightgrey">
+
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Grade</th>
+            <th>City</th>
+        </tr>
+
+        <tr>
+            <td>John</td>
+            <td>15</td>
+            <td>10th</td>
+            <td>New York</td>
+        </tr>
+
+        <tr>
+            <td>Emma</td>
+            <td>14</td>
+            <td>9th</td>
+            <td>Los Angeles</td>
+        </tr>
+
+        <tr align="Center">
+            <td>Michael</td>
+            <td colspan="2">11</td>
+            <!-- <td>11th</td> -->
+            <td>Chicago</td>
+        </tr>
+
+        <tr>
+            <td>Sophia</td>
+            <td>15</td>
+            <td>10th</td>
+            <td align="Center" bgcolor="skyblue" rowspan="2">Houston</td>
+        </tr>
+
+        <tr>
+            <td>Daniel</td>
+            <td>14</td>
+            <td>9th</td>
+        </tr>
+
+
+    </table>
+
+
+</body>
+
+</html>

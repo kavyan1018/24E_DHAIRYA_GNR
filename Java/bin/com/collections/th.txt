@@ -1,0 +1,25 @@
+Collection frameworks
+
+framework: a predifine arch is given and dev/prog have reuse that only..
+
+java.util -->
+
+order classes
+unordered classes
+
+								Iterable [i]
+								
+								Collection[i]
+	order               unorder                orderd                    unorderd
+	List[i]            Set[i]                 Queue[i]                    Map[i]
+	
+	ArrayList          TreeSet                PriorityQueue              TreeMap 
+  	LinkedList         HashSet                Dequeue                    HashMap
+	Vector                                    LinkedList   
+									
+				
+index -> 0,n
+unorder -->
+
+
+Array --> array is group of similar kind of data...

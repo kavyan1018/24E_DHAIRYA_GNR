@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="./formdemo2.js"></script>
+  </head>
+  <body>
+    <form onsubmit="submitHandler(event)">
+      <div>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"  onkeyup="nameHandler()" />
+      </div>
+      <div>
+        <label>Email</label>
+        <input type="text" id="email" name="email"  onkeyup="emailHandler()" />
+      </div>
+      <div>
+        <input type="submit" value="Submit" />
+      </div>
+    </form>
+  </body>
+</html>

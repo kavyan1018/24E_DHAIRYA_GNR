@@ -1,0 +1,19 @@
+access modifiers / or specifiers...
+
+access modi..restrict scope of you data..
+public
+protected
+default
+private
+
+non access modifiers or...
+non access modifiers provide information about your data not restric scope...
+or provide specific charastrict to your data...
+
+static
+final
+abstract
+syncronized
+native
+volatile
+transiant...

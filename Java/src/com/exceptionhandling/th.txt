@@ -1,0 +1,50 @@
+exception handling....
+Error class and Exception ...
+Error class....
+Exception class ....
+
+Erorr ---> compile time....
+int a =10 -->error ;
+int no 1; --->error
+
+compile time..
+resolve...
+
+---------------------
+Exception compile / runtime
+exception is that process which stops continues flow of programme...
+
+2 types of exception are there
+1) compile time exception / checked exception
+2) run time exception  / uncheckd exception...
+
+								Throwable [c]
+		
+		Erorr												Exception
+			no child...											many child class
+																RunTimeException[c]
+																	many child...
+																IoException[c]	
+																	many child..
+																	
+																	
+																	
+																							
+how many ways to handle excpetion????
+2 ways to handle excpetion !!!
+
+try catch and finally block..
+using throws keyword...	
+
+
+
+
+in java any predefine or userdefine's class methods throws any exception
+ then compile time exception will be there while using that method....
+
+
+																						
+
+
+
+

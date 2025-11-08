@@ -1,0 +1,208 @@
+js:
+
+frontend : html,css,js..
+client: browser
+
+backend :c,cpp,java,python
+-------------------------------
+2 type of programming | scripting language
+
+1)statically typed language  :c,cpp,java,
+2)dynamically typed language :python, js
+
+justfy the statement that java script is dynamically typed language
+
+compiler and interpreter:
+
+Babel.js
+
+js was develope by netscape communication corporation
+firefox
+
+browser engines:
+spider monkey :firefox
+v8 :chrome
+chakra :edge
+javascript core :safari
+
+-------------------------------
+internal js
+external js .js
+
+
+use of js:
+limitation of html and css :
+
+    DOM: document object model
+    
+
+
+
+3 keywods:
+var : global scope
+let : block scope
+const : block scope
+number
+
+operators:
+operators are symbols that perform operations on operands.
+type of operators:
+unary operator : 1 operand
+binary operator : 2 operand
+ternary operator : 3 operand
+
+------------------------------
+types:
+1)arithmetic operators : +,-,*,/,%,++,--
+2)assignment operators : =,+=,-=,*=,/=,%=, **=
+3)comparison operators : ==,===,!=,!==,>,<,>=,<=
+4)logical operators : &&,||,!
+5)bitwise operators : &,|,^,~,<<,>>
+6)string operators : +
+7)conditional operators : ?:
+8)typeof operator : typeof
+----------------------------------------------------
+
+question:
+product:
+county:
+
+
+functions
+string
+array
+json array
+
+------------------------
+multi thread:
+
+javascript follows single thread model
+:callback function
+-----------------------------------------------------------
+
+array:
+collection of  type of elements
+
+
+window
+document object model:
+
+1)task : array [emails,",",",","]
+email taken...
+email is available or not
+
+input
+formula
+digit*digit
+12*12
+24
+
+
+input [box]
+circle
+
+
+blood donation form
+
+donor name
+donor age
+boood group valid..
+gender 
+weight 45 kg
+any disease if yes print the name of disease
+
+
+
+calculator
+buttons//button id ---> document.get
+
+API:
+application programming interface
+
+data display:
+data create
+data update
+data delete
+
+backend:
+data display : database detch --> api-->GET
+
+
+androind form: submit -->data -->[api] --> google server
+backend POST --> frontend POST
+
+
+
+
+API: application programming interface:
+frontend tech :- javascript,html, :- framewroks: angulat, react js..
+backend  tech :- c,cpp,java,python, :- spring,django,flask,node,express,
+
+NETFLIX : browser : frontend 
+        : logical part : data fetch : backend
+
+JSP-SERVELET : java JSP : frontend,servlet backend 
+js,....: dynamic data:
+
+frontend: backend
+js :  bridge  java
+       url
+       data bind...
+       API
+
+API DEVELOPE: produce:
+api use: consume
+
+API methods:
+            frontend      BACKEND
+GET          fetch         send
+POST         create        receive 
+PUT          UPDATE        UPDATE
+DELETE       DELETE        DELETE
+
+
+
+androind girnar : register :
+form [] data -->android :POST
+        java -->mysql -->
+        expose : domain/createData :POST
+
+
+java -->api --->js
+        JSON
+
+API --> call --> DATA time..
+
+
+API call --> application prog interface
+
+js -->frontend support -->dynamic data: darabase --> js
+
+API ->call -> URL --> methods --> data
+
+API methods:
+GET : fetch -->frontend display
+POST: frontend -->data --> backend -->db store..
+PUT : update -->fe -->be
+DELETE:delete
+
+API --> weather --> satt =-> data -> json --> wetaher
+
+zomato ,swiggy --> map -> api --> map -->api --> data->
+
+API --> Data -->JSON
+
+FETCH function
+
+
+
+API --> application programming interfacre
+URL : --> data provide:
+
+GET : backed data fetch  -->display   backed dev:GET
+POST: android application form : data fill ---> node js -->database --> backend POST 
+PUT : fe data update :
+DELETE: delete..
+
+
+fetch() ->function

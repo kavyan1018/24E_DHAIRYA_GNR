@@ -1,0 +1,78 @@
+html : 
+
+dev :
+    1. Web Development (Frontend)
+        -> html
+        -> css
+        -> javascript
+
+    2. app Development (Backend)
+        -> python
+        -> java
+
+    3. database
+        -> sql
+        -> mongodb
+
+
+---------------------------------
+
+
+HTML -> Hyper Text Markup Language
+
+version -> html 5
+2014
+
+
+css -> for styling the html page
+
+---------------------------------
+
+for file creating we need to use .html extension
+->  file_name.html
+
+-> intro.html
+
+
+------------------------------------
+
+
+what is html and htm difference?
+
+
+--------------------------------
+
+html -> tags
+    -> open tag 
+    -> close tag
+    -> content
+    -> attributes
+
+
+    open tag -> <html>
+    close tag -> </html>
+
+    <br> -> break tag (it is a single tag) -> self closing tag
+
+
+<!DOCTYPE html>  : declaration that defines this document as HTML5
+
+<html lang="en"> : lang attribute specifies the language of the document
+
+<head> : contains meta-information about the document
+
+    <meta charset="UTF-8"> : specifies the character encoding for the document
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> : ensures proper rendering and touch zooming on mobile devices
+
+    <title>Document</title> : sets the title of the document, which appears in the browser tab
+
+</head> : close head tag
+
+<body> : contains the content of the document that is visible to users
+
+    // content goes here    
+    
+</body> : close body tag
+
+</html> : close html tag

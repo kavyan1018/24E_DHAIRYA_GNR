@@ -1,0 +1,22 @@
+check @ in email if not present run loop n time
+you have to find diffrence be == and equals method..
+3) get string from user --> hello this is my world
+//get singlr char from user --> i
+//repete count of i
+// if that char not present in string give ans as 0
+
+
+String builtIN methof indexOf create replica of indexOfUdf
+
+1)contains
+2)equlas
+2)toUpper
+3)tolowe
+5)length
+charAt
+trim
+concat
+compareTo
+lastIndexOf
+IndexOf
+isEmpty

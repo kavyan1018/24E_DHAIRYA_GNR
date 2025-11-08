@@ -1,0 +1,26 @@
+String classs --> java.lang.String
+
+string is group of char char array
+
+index -->
+
+mutable :-
+	we can modify same refereance.....
+immutable :-
+	we can not modify same refereance.....
+	
+string in java is immutable..
+
+string s = "java" 
+s + "python"
+reference varbible s -->
+
+s = "java"
+s1 = "java"
+
+it will check value ---> 	
+
+ASSIC value --> cap A -> 65
+					a -> 97
+					space 32
+ 

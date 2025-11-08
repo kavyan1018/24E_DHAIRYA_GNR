@@ -1,0 +1,68 @@
+polymorephisam :: poly means many -> phisam --> forms
+manyform of fucntion 
+
+compile time poly / static binding :-
+	method overloaiding..
+	
+	same name of method but different argument with diff data type
+	search(String pname)
+	
+	search(String pname,Stirng color)
+	
+	search(String pname,int price)
+	search(String pname,int price,boolean avaial)
+	
+	search(String pname,String category)
+	-------------------------------------------------
+	car(String name)
+	car(String name,String color)
+	car(String name,String fuel type)
+	
+	--------------------------------------------------
+	
+	book(s type)
+	book(s type,r avaia)
+	book(s type,r price)
+	book(r price,r location)
+	---------------------------------------------------
+	
+	
+	
+	
+	
+	
+	
+	
+run time poly /dynamic binding :-
+	method overriding...
+	
+	parent class method created in child class with same signature 
+	it is called method overriding....
+	
+	accessmodifiers non access modifier return type name (param)
+	
+	use: parent class --> child class
+	
+	havemore bodakdev
+	
+	public String 6oleBhture(){
+	
+		10, 15
+	}
+	
+	havemore.... navrangpura
+	
+	public String 6oleBhture(){
+	
+		10,15
+		12,13
+	}
+	
+	polymorphic object...
+	
+	
+	
+	
+	
+	
+	

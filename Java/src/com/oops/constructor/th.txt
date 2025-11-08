@@ -1,0 +1,16 @@
+constructor:
+constructor is special function which has same name as class name !!!
+constr .... can not have return type but cons...can have param...
+
+
+use:
+to intialize class into memory and intitalize instance variable of class...
+
+type:
+default
+param 
+//*copy*//
+
+1 java file required 1 con....
+
+explicit,.. thn compiler will create default constructor...
